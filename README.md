@@ -8,7 +8,7 @@ A Quick Action for macOS, using the native Quick Actions. You can right-click fi
 ## How to download and use
 You can download this repository to your Mac, or use the latest in [releases](https://github.com/melyux/mac-share-to-nextcloud/releases).
 
-You then must enter some details about your Nextcloud situation before using it. To do this, right-click the Workflow file → Open With → Automator (not Automator Installer, which is the default). In the Automator window, fill out the details in the requested "Get Specified Text" actions:
+You then must enter some details about your Nextcloud situation before using it. To do this, right-click the Workflow file → Open With → Automator (NOT Automator Installer, which is the default). In the Automator window, fill out the details in the requested "Get Specified Text" actions:
 
 * **Host**: the URL of your Nextcloud instance, without the protocol (e.g. nextcloud.domain.me)
 * **Folder**: an existing folder in your Nextcloud instance to upload the file to (e.g. Shortcuts)
@@ -19,4 +19,4 @@ Do File → Save (or Command + S) to save.
 
 Now double click the Workflow file to install it to your Mac.
 
-To edit any of these parameters in the future, find the file in `~/Library/Services/Share with Nextcloud.workflow` to edit it in the same way using Automator.
+To edit any of these parameters in the future, find the file in `~/Library/Services/Share through Nextcloud.workflow` to edit it in the same way using Automator.
